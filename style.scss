@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+$primary-color: #ffb703;
+$error-color: #d62828;
+$text-color: #757575;
+$border-color: #a3a3a3;
+$border-radius: 4px;
+
+body {
+    background: #cecece;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.register-form {
+    background: white;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    color: $text-color;
+    border-radius: $border-radius;
+    margin: 10px;
+    margin-top: 50px;
+
+    h1 {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        text-align: center;
+        color: $primary-color;
+    }
+    .form-group {
+        margin-bottom: 15px;
+
+        .label {
+            font-weight: bold;
+
+            &-block {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+        
+        .text-input {
+            display: block;
+            padding: 5px 10px;
+            width: 100%;
+            max-width: 100%;
+            border-radius: $border-radius;
+            border: 2px solid $border-color;
+            color: $text-color;
+
+            &:focus {
+                outline:none;
+                border: 2px solid $primary-color;
+            }
+        }
+        .error {
+            color: $error-color;
+        }
+
+        .radio-label {
+            margin-right: 20px;
+        }
+
+        select {
+            width: 100%;
+            padding: 7px;
+            border: 2px solid $border-color;
+            border-radius: $border-radius;
+            color: $text-color;
+
+            &:focus {
+                outline: none;
+                border: 2px solid $primary-color;
+            }
+            
+            option {
+                color: $text-color;
+            }
+        }
+    }
+
+    .register-btn {
+        width: 100%;
+        background-color: $primary-color;
+        outline: 0;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: $border-radius;
+    }
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #cecece;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.register-form {
+  background: white;
+  padding: 15px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  color: #757575;
+  border-radius: 4px;
+  margin: 10px;
+  margin-top: 50px;
+}
+.register-form h1 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+  color: #ffb703;
+}
+.register-form .form-group {
+  margin-bottom: 15px;
+}
+.register-form .form-group .label {
+  font-weight: bold;
+}
+.register-form .form-group .label-block {
+  display: block;
+  margin-bottom: 10px;
+}
+.register-form .form-group .text-input {
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 4px;
+  border: 2px solid #a3a3a3;
+  color: #757575;
+}
+.register-form .form-group .text-input:focus {
+  outline: none;
+  border: 2px solid #ffb703;
+}
+.register-form .form-group .error {
+  color: #d62828;
+}
+.register-form .form-group .radio-label {
+  margin-right: 20px;
+}
+.register-form .form-group select {
+  width: 100%;
+  padding: 7px;
+  border: 2px solid #a3a3a3;
+  border-radius: 4px;
+  color: #757575;
+}
+.register-form .form-group select:focus {
+  outline: none;
+  border: 2px solid #ffb703;
+}
+.register-form .form-group select option {
+  color: #757575;
+}
+.register-form .register-btn {
+  width: 100%;
+  background-color: #ffb703;
+  outline: 0;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}/*# sourceMappingURL=style.css.map */
